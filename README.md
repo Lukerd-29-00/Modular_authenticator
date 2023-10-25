@@ -10,3 +10,5 @@ the challenge should consist of public_key.json, gen_key.py, server.py, and serv
 ## Notes
 the solution should only take about 15 seconds.
 
+## Challenge description
+Alright, so I think I've got the basics of this zero-knowledge proof stuff down now. Care to take a gander?

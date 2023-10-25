@@ -28,7 +28,7 @@ secrets = [random.randint(1,1<<32) for _ in range(128)]
 
 squares = [pow(r,e,p) for r in secrets]
 
-r = remote("localhost",3000)
+r = remote("0.cloud.chals.io",14202)
 
 r.sendline(json.dumps(squares).encode('utf-8'))
 
